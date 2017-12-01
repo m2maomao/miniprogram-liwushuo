@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box-wrap">
+    <view class="content" bindtouchmove='handletouchmove' bindtouchend='handletouchend' bindtouchstart='handletouchstart' animation="{{animation}}" style="top:{{pTop}}rpx;left:{{pLeft}}rpx;">
+      <image src="../../images/500x500.jpg"></image>
+      <text class='t1'>纪梵希·小牛皮口红</text>
+      <text class='t2'>一场呵护与润色的时尚盛宴</text>
+      <text class='t3'>￥320</text>
+      <text class='t4'>查看详情→</text>
+    </view>
+    <view class="content">
+      <image src="../../images/500x500.jpg"></image>
+      <text class='t1'>纪梵希·小牛皮口红</text>
+      <text class='t2'>一场呵护与润色的时尚盛宴</text>
+      <text class='t3'>￥320</text>
+      <text class='t4'>查看详情→</text>
+    </view>
+    <view class="content">
+      <image src="../../images/500x500.jpg"></image>
+      <text class='t1'>纪梵希·小牛皮口红</text>
+      <text class='t2'>一场呵护与润色的时尚盛宴</text>
+      <text class='t3'>￥320</text>
+      <text class='t4'>查看详情→</text>
+    </view>
+  </view>
+  <view class="btn-wrap">
+    <button url="" class="btn-link" bindtap='handlereset'>撤销</button>
+    <button url="" class="btn-link">立即购买</button>
+    <button url="" class="btn-link">筛选</button>
+  </view>
+</view>
