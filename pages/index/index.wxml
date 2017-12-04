@@ -8,14 +8,14 @@
       <text class='t3'>￥320</text>
       <text class='t4'>查看详情→</text>
     </view>
-    <view class="content">
+    <view class="content" animation="{{animation2}}">
       <image src="../../images/500x500.jpg"></image>
       <text class='t1'>纪梵希·小牛皮口红</text>
       <text class='t2'>一场呵护与润色的时尚盛宴</text>
       <text class='t3'>￥320</text>
       <text class='t4'>查看详情→</text>
     </view>
-    <view class="content">
+    <view class="content" animation="{{animation3}}">
       <image src="../../images/500x500.jpg"></image>
       <text class='t1'>纪梵希·小牛皮口红</text>
       <text class='t2'>一场呵护与润色的时尚盛宴</text>

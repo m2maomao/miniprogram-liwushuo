@@ -78,6 +78,29 @@ Page({
       _top:_top,
       _left:_left
     });
+    // 第二个产品
+    var animation2 = wx.createAnimation({
+      duration:500,
+      timingFunction:'linear',
+      delay:200
+    });
+    this.animation = animation2;
+    animation2.scaleY('1').top('0px').step();
+    this.setData({
+      animation2:animation2.export()
+    });
+    // 第三个产品
+    var animation3 = wx.createAnimation({
+      duration: 500,
+      timingFunction: 'linear',
+      delay: 200
+    });
+    this.animation = animation3;
+    animation3.scale('.96','.96').top('15px').step();
+    this.setData({
+      animation3: animation3.export()
+    });
+
   },
   handlereset:function() {
     console.log('撤销！');
