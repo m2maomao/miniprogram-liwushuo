@@ -13,11 +13,15 @@
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text":"首页"
+        "text":"首页",
+        "iconPath": "images/icon-index.png",
+        "selectedIconPath": "images/icon-index2.png"
       },
        {
         "pagePath":"pages/logs/logs",
-        "text":"我的"
+        "text":"我的",
+        "iconPath":"images/icon-user.png",
+        "selectedIconPath":"images/icon-user2.png"
       }
     ]
   },
