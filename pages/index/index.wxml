@@ -1,33 +1,11 @@
 <!--index.wxml-->
 <view class="container">
   <view class="box-wrap">
-<<<<<<< HEAD
     <view class="content" bindtouchmove='handletouchmove' bindtouchend='handletouchend' bindtouchstart='handletouchstart' animation="{{item.animation}}" style="top:{{item.pTop}}rpx;left:{{item.pLeft}}rpx;" wx:for="{{ cardInfoList }}"  wx:key="unique" wx:for-index="id" wx:for-item="item" id="{{id}}">
       <image src="{{ item.imageUrl }}"></image>
       <text class='t1'>{{item.t1}}</text>
       <text class='t2'>{{item.t2}}</text>
       <text class='t3'>{{item.t3}}</text>
-=======
-    <view class="content" bindtouchmove='handletouchmove' bindtouchend='handletouchend' bindtouchstart='handletouchstart' animation="{{animation}}" style="top:{{pTop}}rpx;left:{{pLeft}}rpx;">
-      <image src="../../images/500x500.jpg"></image>
-      <text class='t1'>纪梵希·小牛皮口红</text>
-      <text class='t2'>一场呵护与润色的时尚盛宴</text>
-      <text class='t3'>￥320</text>
-      <text class='t4'>查看详情→</text>
-    </view>
-    <view class="content" animation="{{animation2}}">
-      <image src="../../images/500x500.jpg"></image>
-      <text class='t1'>纪梵希·小牛皮口红</text>
-      <text class='t2'>一场呵护与润色的时尚盛宴</text>
-      <text class='t3'>￥320</text>
-      <text class='t4'>查看详情→</text>
-    </view>
-    <view class="content" animation="{{animation3}}">
-      <image src="../../images/500x500.jpg"></image>
-      <text class='t1'>纪梵希·小牛皮口红</text>
-      <text class='t2'>一场呵护与润色的时尚盛宴</text>
-      <text class='t3'>￥320</text>
->>>>>>> 70de5d7cde17d98997d7517084fec8865fa9aebb
       <text class='t4'>查看详情→</text>
     </view>
   </view>
